@@ -1,0 +1,19 @@
+{
+    "name": "Carry More Items",
+    "description": "Increase how many items like keycards you can hold.",
+    "author": "neo",
+    "contact": "no@support.com",
+    "version": "1.0",
+    "updates": [
+        {
+            "revision": 1,
+            "identifier": "neo-morecarryitems"
+        }
+    ],
+    "persist_scripts" : [
+        {
+            "global" : "neo_morecarryitems",
+            "script_path" : "lua/mod.lua"
+        }
+    ]
+}
