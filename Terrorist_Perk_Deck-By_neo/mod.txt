@@ -1,0 +1,12 @@
+{
+"name" : "Terrorist",
+"description" : "The Terrorist perk deck focuses on chaotic and aggressive playstyles, rewarding players who thrive in the midst of mayhem. By embracing chaos and instilling fear in their enemies, players utilizing this perk deck become formidable forces on the battlefield.",
+"author" : "neo and Maple Maniac's Perk Deck Maker.",
+"image" : "logo.png"
+"version" : "1.0",
+"blt_version" : 2
+"hooks" : [
+{ "hook_id" : "lib/tweak_data/skilltreetweakdata", "script_path" : "mod/skilltree.lua" },
+{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "mod/loc_EN.lua" },
+{ "hook_id" : "lib/managers/mission/elementmissionend", "script_path" : "mod/restrictions.lua" }
+]}
