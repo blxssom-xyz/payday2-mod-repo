@@ -1,0 +1,18 @@
+{
+	"name" : "Drag and Drop Inventory",
+	"description" : "To easily move your masks and weapons.",
+	"author" : "TdlQ",
+	"version" : "3",
+	"updates" : [
+		{
+			"revision" : 3,
+			"identifier" : "DDI"
+		}
+	],
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/menu/blackmarketgui",
+			"script_path" : "blackmarketgui.lua"
+		}
+	]
+}
